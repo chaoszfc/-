@@ -57,7 +57,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 .font16{ font-size: 16px;}
 
 /*公共部分*/
-#shoes{}
+#head{height:26px;background: #EEEEEE;}
 #head .container{height:26px;background: #EEEEEE;}
 #head li{float:left;font-size: 12px;position:relative;}
 #head .spec a{color:#FF6500;}
@@ -82,23 +82,25 @@ s,i,em{font-style:normal;text-decoration:none;}
 
 /*搜索框*/
 #main_top .search{width:341px;height: 62px;padding:15px 120px 0 0;}
-#main_top form .txt{width:270px;height: 28px;border:2px solid #D5D5D5;border-right: 0 none;}
-#main_top form button{height: 32px;width: 66px;background: #464147;color:white;font-size: 18px;}
-#main_top p{font-size: 12px;line-height: 38px;}
+#main_top form .txt{width:270px;height:28px;border:2px solid #D5D5D5;border-right: 0 none;}
+#main_top form button{height: 32px;width: 66px;background:#444444;color:white;font-size: 16px;}
+#main_top p{font-size: 12px;line-height: 12px;padding-top:5px;}
 #main_top .hot{color:#CACACA;}
+#main_top p{color:#888888;}
 
 /*购物车*/
-.buycar{width:125px;height: 77px;float:right_nav;}
-.buycar button{width:125px;height:34px;font-size: 12px;margin:30px 0 23px 0;border-radius:5px;}
+.buycar{height:77px;}
+.buycar button{width:125px;height:34px;font-size: 12px;margin:20px 0 23px 0;border-radius:5px;position:relative;background: linear-gradient(#FEFEFE,#EEEEEE);border:1px solid #EEEEEE;}
+.buycar i{display:block;width:22px;height:19px;background:url("../images/icon.fw.png") -50px -50px;left:7px;top:8px;position:absolute;}
 
 /*左侧导航*/
 #nav{height: 34px;background: #A21F25;}
 #nav .left_nav{height: 34px;background:#B9363C;font-size: 14px;width:190px;}
-.left_nav h2{width:190px;height:34px;color:white;line-height: 34px;text-align:center;}
+.left_nav h2{width:190px;color:white;line-height: 34px;text-align:center;}
 .left_nav .c_hidden{}
 .c_hidden li{height:41px;padding-top:2px;position:relative;background:#1F1909;}
-.c_hidden a{display:block;line-height:15px;padding-top:15px;color:white;position:absolute;padding-left:25px;}
-.c_hidden i{display:block;width:21px;height:21px;background:url("../images/icon.fw.png")-120px 0;position:absolute;left:2px;top:12px;}
+.c_hidden a{display:block;line-height:15px;padding-top:15px;color:white;position:absolute;padding-left:40px;}
+.c_hidden i{display:block;width:21px;height:21px;background:url("../images/icon.fw.png")-120px 0;position:absolute;left:12px;top:14px;}
 
 /*中间导航*/
 #nav .center_nav{height: 34px;}
