@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img,input{ margin:0; padding:0; }
+fieldset, img,input,button { border:0 none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+ul, ol { list-style:none; }
+a{text-decoration: none;}
+/*input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}*/
+select, input { vertical-align:middle;}
+/*select, input, textarea { font-size:12px; margin:0; }*/
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+
+
+
+.clearfix::after{
+    content:"";
+    display: block;
+    height: 0;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden;
+    /*兼容ie*/
+   zoom:1;
+}
+
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:1em;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+
+
+/*公共类*/
+.container {  /*版心 提取 */
+    width: 1190px;
+    margin:0 auto;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.al {
+    text-align:left;
+}
+.ac {
+    text-align:center;
+}
+.ar {
+    text-align:right;
+}
+.hide {
+    display:none;
+}
+.font12{ font-size: 12px;}
+.font14{ font-size: 14px;}
+.font16{ font-size: 16px;}
+
+/*公共部分*/
+#shoes{}
+#head .container{height:26px;background: #EEEEEE;}
+#head li{float:left;font-size: 12px;position:relative;}
+#head .spec a{color:#FF6500;}
+#head a{height:26px;font-size:12px;line-height: 26px;padding-top:6px;}
+#head span{padding:0 16px 0 14px;border-right: 1px solid #D4D4D4;color:#666666;}
+
+/*小图标*/
+#head .right span{padding-right: 26px;}
+#head .left span{padding-left:30px;}
+#head i{display:block;background:url("../images/icon.fw.png");}
+#head .icon_arrow{width:10px;height: 7px;position:absolute;right:3px;top:50%;margin-top:-3px;}
+#head .phone{width: 12px;height:18px;position:absolute;left:13px;top:4px;background:url("../images/icon.fw.png")-20px 0;}
+#head .qq{width: 18px;height:17px;position:absolute;left:10px;top:5px;background:url("../images/icon.fw.png")-50px 0;}
+#head .tel{width:20px;height:17px;position:absolute;left:6px;top:5px;background:url("../images/icon.fw.png")-80px 0;}
+
+/*头部*/
+
+/*logo*/
+#main_top .container{height:77px;}
+#main_top .logo {width:263px;height:77px;float:left;background:url("../images/logo.jpg")no-repeat;margin-right:14px;}
+#main_top h2{width:143px;font-size: 16px;color:#666666;line-height: 58px;padding-top:19px;margin-right:120px;}
+
+/*搜索框*/
+#main_top .search{width:341px;height: 62px;padding:15px 120px 0 0;}
+#main_top form .txt{width:270px;height: 28px;border:2px solid #D5D5D5;border-right: 0 none;}
+#main_top form button{height: 32px;width: 66px;background: #464147;color:white;font-size: 18px;}
+#main_top p{font-size: 12px;line-height: 38px;}
+#main_top .hot{color:#CACACA;}
+
+/*购物车*/
+.buycar{width:125px;height: 77px;float:right_nav;}
+.buycar button{width:125px;height:34px;font-size: 12px;margin:30px 0 23px 0;border-radius:5px;}
+
+/*左侧导航*/
+#nav{height: 34px;background: #A21F25;}
+#nav .left_nav{height: 34px;background:#B9363C;font-size: 14px;width:190px;}
+.left_nav h2{width:190px;height:34px;color:white;line-height: 34px;text-align:center;}
+.left_nav .c_hidden{}
+.c_hidden li{height:41px;padding-top:2px;position:relative;background:#1F1909;}
+.c_hidden a{display:block;line-height:15px;padding-top:15px;color:white;position:absolute;padding-left:25px;}
+.c_hidden i{display:block;width:21px;height:21px;background:url("../images/icon.fw.png")-120px 0;position:absolute;left:2px;top:12px;}
+
+/*中间导航*/
+#nav .center_nav{height: 34px;}
+.center_nav li{float:left;background:#B9363C;font-size: 14px;height:34px;}
+.center_nav a{display:block;color:white;padding-top:9px;}
+.center_nav span{display:block;line-height:14px;padding:0px 17px 0 13px;border-right:1px dashed white;}
+
+/*右侧导航条*/
+.right_nav{height: 34px;}
+.right_nav li{float:left;background:#B9363C;font-size: 14px;height:34px;position:relative;}
+.right_nav a{display:block;color:white;padding-top:9px;}
+.right_nav span{display:block;line-height:14px;padding:0px 17px 0 13px;border-right:1px solid white;}
+.right_nav i{width:33px;height: 17px;background: url("../images/discount.gif") -68px 0;position:absolute;right:11px;top:-9px;}
+
+/*鼠标悬停*/
+.ooxx li:hover {background:#444444;border-right:1px dashed #444444;margin-left: -1px;}
+.ooxx li:hover span{border-right: 0 none;margin-left: 1px;}
+
+
+

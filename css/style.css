@@ -1,0 +1,121 @@
+/* 
+* @Author: zfc
+* @Date:   2017-11-24 17:20:38
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-12-03 17:38:36
+*/
+/*轮播图*/
+#banner {height:387px;}
+#banner h1{height:387px;background:url("../images/banner.jpg")no-repeat;}
+
+/*图标上方*/
+#logo_top{height:42px;}
+#logo_top{height:26px;font-size: 12px;line-height:12px;padding-top:16px;}
+#logo_top h2{font-weight: bold;text-decoration: underline;padding-bottom: 3px;}
+#logo_top p{margin-left: 20px;}
+
+/*所有鞋子商标*/
+#logo_shoes{height:214px;}
+.left_logoshoes {height: 214px;width:990px;float:left;}
+.left_logoshoes ul{height:213px;border-top:1px solid#DCDCDC;border-left:1px solid#DCDCDC;}
+.left_logoshoes li{height:70px;width: 140px;border-right:1px solid#DCDCDC;border-bottom:1px solid#DCDCDC;float:left;position:relative;}
+.left_logoshoes a{height:70px;width: 140px;display:block;color:#949494;font-size:12px;position:absolute;padding-top: 40px;text-align: center;}
+.left_logoshoes i{display:block;width:49px;height:28px;background:url("../images/icon.fw.png") -210px 0;position:absolute;left:42px;top:10px;}
+
+/*右侧小新闻*/
+.right_logoshoes{height:214px;width:189px;}
+.top_area{height:68px;width:189px;border:1px solid #F1F1F1;}
+.top_area li{position:relative;}
+.top_area a{display:block;font-size: 12px;color:#787878;padding-left:20px;line-height: 12px;padding-top: 8px;}
+.top_area i{display:block;width:5px;height:8px;background:url("../images/icon.fw.png") -280px 0;position:absolute;left:10px;top:9px;}
+
+/*右下区域*/
+.foot_area{height: 145px;}
+.foot_area .foot_top{height: 34px;width:189px;}
+.foot_top h2{font-size: 16px;color:#383838;}
+.foot_top p{font-size: 14px;color:#D0D0D0;}
+.foot_top li{line-height: 16px;height:34px;padding-top:10px;position:relative;}
+.foot_top i{display:block;width:15px;height:16px;background:url("../images/icon.fw.png") -300px 0;position:absolute;right:77px;top:10px;}
+
+/*右下图片*/
+.foot_foot{height:109px;width:187px;border:1px solid #EEEEEE;}
+.foot_foot img{display:block;height:104px;width:183px;margin-left: 2px;margin-top:2px;}
+
+/*满减区域左侧*/
+#manjian_little{height:12px;}
+#manjian .manjian_area{height:290px;}
+.manjian_area .man_left{height: 290px;width:350px;float:left;border:1px solid #C3C3C3;}
+.man_left h1{width:335px;height: 214px;margin-top:8px;margin-left:8px;border-bottom: 1px dashed #CFCFCF;}
+.man_left i{display:block;width:335px;height:205px;background:url("../images/child.jpg");}
+.man_left h2{font-size: 18px;color:#3D3D3D;margin-left:8px;margin-top:9px;}
+.man_left p{font-size: 12px;color:#9D9D9D;margin-left:8px;}
+
+/*满减区域右侧*/
+.man_right{width:836px;height:290px;float:right;}
+.man_right li{float:left;width:203px;height:290px;border:1px solid #C7C7C7;margin-right:4px;}
+.man_right h1{width:197px;height:217px;margin-top:3px;margin-left:3px;border-bottom: 1px dashed #CFCFCF;}
+.man_right i{display:block;width:197px;height:207px;background:url("../images/ruibu.jpg");}
+.man_right h2{font-size: 18px;color:#3D3D3D;margin-left:8px;margin-top:9px;}
+.man_right p{font-size: 12px;color:#9D9D9D;margin-left:8px;}
+
+/*休闲鞋灰色区域*/
+#many_area{height: 25px;background-color:#F6F6F6;}
+
+/*休闲鞋*/
+#many_pic{height: 426px;}
+
+/*休闲鞋左侧top*/
+.left_pic{width:190px;height: 426px;}
+.left_pic .top{width:190px;height: 60px;background: #A02043;position:relative;}
+.left_pic .onee{display:block;width:31px;height: 31px;background:url("../images/icon.fw.png") -340px 0;left:0;top:0;position:absolute;}
+.left_pic .twoo{display:block;width:24px;height: 16px;background:url("../images/icon.fw.png") -400px 0;left:82px;top:16px;position:absolute;}
+.left_pic h2{font-size: 12px;color:white;text-align: center;padding-top:31px;}
+
+/*休闲鞋左侧center*/
+.left_pic .center{width:190px;height:205px;background:#FFFFFF;}
+.left_pic .rightborder{width:95px;height:205px;}
+.left_pic .rightborder li{width:95px;height:40px;border-right:1px dashed #DCDCDC;border-bottom:1px dashed #DCDCDC;position:relative;}
+.left_pic .rightborder i{display:block;width:95px;height:39px;background:url("../images/icon.fw.png") -440px 0;left:0;top:0;position:absolute;}
+.left_pic .noneborder{width:95px;height:205px;}
+.left_pic .noneborder li{width:95px;height:40px;border-bottom:1px dashed #DCDCDC;position:relative;}
+.left_pic .noneborder i{display:block;width:95px;height:39px;background:url("../images/icon.fw.png") -550px 0;left:1px;top:0;position:absolute;}
+
+/*休闲鞋左侧foot*/
+.left_pic ul{width:190px;height:161px;background:#FFFFFF;}
+.left_pic li{float:left;width:95px;}
+.left_pic a{display:block;color:#3B4039;font-size: 12px;line-height:12px;padding-top:15px;text-align: center;}
+
+/*休闲鞋超级大图*/
+.right_pic{width:992px;height:426px;float:right;}
+.big_pic{width:393px;height: 426px;}
+
+/*休闲鞋右边*/
+.leave_area{width:598px;height:426px;}
+.leave_area .topnow_area ul{height:245px;}
+.leave_area .topnow_area li{float:left;width:197px;height:245px;border-right:1px solid #D2D2D2;border-bottom: 1px solid #D2D2D2;}
+.topnow_area a{display:block;font-size: 14px;height:42px;text-align: center;padding-top:20px;}
+.topnow_area p{color:#888888;}
+.topnow_area i{display:block;width:197px;height:183px;background:url("../images/autuam01.jpg") no-repeat;}
+
+.leave_area .footnow_area li{float:left;width:197px;height:182px;border-right:1px solid #D2D2D2;border-bottom: 1px solid #D2D2D2;}
+.footnow_area a{display:block;font-size: 14px;height:42px;text-align: center;padding-top:20px;}
+.footnow_area p{color:#888888;}
+.footnow_area i{display:block;width:197px;height:121px;background:url("../images/fuckshoes.jpg") no-repeat;}
+
+/*最底部*/
+#fin_area{height:22px;border-bottom:2px solid red;}
+#fin_foot{height: 226px;background:#F5F5F5;}
+.left_fin{height: 226px;width:247px;}
+.left_fin h2{height: 188px;width:247px;padding-top: 14px;}
+.left_fin i{display:block;width:245px;height: 188px;background:url("../images/kefure.jpg");border-right: 1px solid #DEDEDE;}
+
+.right_fin{height:226px;width:943px;}
+.right_fin .red_lo{height:82px;width:943px;}
+.right_fin .red_lo li{width:200px;padding-left: 30px;float:left;position:relative;}
+.right_fin .red_lo a{display:block;height:82px;width:200px;padding-left: 47px;padding-top: 22px;}
+.right_fin .red_lo h1{font-size: 18px;color:#AAAAAA;}
+.right_fin .red_lo p{font-size: 12px;color:#C3C3C3;}
+.right_fin .red_lo i{display:block;width:37px;height: 41px;background:url("../images/icon.fw.png")0 -50px;position:absolute;left:37px;top:22px;}
+
+.right_fin .red_lo h2{display:block;height:17px;width:200px;font-size: 14px;padding-top:26px;color:#747474;}
+.right_fin .red_lo h3{display:block;height:17px;width:200px;font-size: 12px;padding-top:13px;color:#9C9C9C;}

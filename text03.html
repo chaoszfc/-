@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="utf-8"/>
+            <title>text</title>
+          <style>
+              *{margin: 0;;padding: 0;}
+              li{list-style: none;}
+              a{display:block;text-decoration: none;height: 40px;width:100px;
+                line-height: 40px;text-align: center;}
+                
+             .top_nav{width:450px;height: 200px;margin-left: 100px;}
+             .top_nav>li{float:left;position:relative;}
+             .top_nav li a{display:block;background: #ccc;font-size: 12px;}
+             .fuck_nav{width:450px;height:200px;}
+             .fuck_nav li{float:left;}
+
+             .top_nav .son_nav{position:absolute;left:0;top:41px;display:none;}
+             .son_nav .fuck_nav{position:absolute;left:101px;top:0;display:none;}
+              
+             .top_nav>li:hover .son_nav{display:block;}
+             .son_nav>li:hover .fuck_nav{display:block;}
+             .top_nav li:hover>a{background:black;color:white;}
+            
+
+
+          </style>
+    </head>
+    <body>
+       <ul class="top_nav">
+        <li>
+            <a href="">首页</a>
+            <ul class="son_nav">
+                <li>
+                    <a href="">产品</a>
+                    <ul class="fuck_nav">
+                      <li><a href="">电子产品</a></li>
+                      <li><a href="">床上用品</a></li>
+                      <li><a href="">清洁用品</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">食物</a>
+                     <ul class="fuck_nav">
+                      <li><a href="">辣条</a></li>
+                      <li><a href="">薯片</a></li>
+                      <li><a href="">饮料</a></li>
+                     </ul>
+                </li>
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">首页</a>
+            <ul class="son_nav">
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">首页</a>
+            <ul class="son_nav">
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">首页</a>
+            <ul class="son_nav">
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+                 <li><a href="">产品</a></li>
+            </ul>
+        </li>
+             
+       </ul>
+  </body>
+</html>
