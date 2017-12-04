@@ -2,11 +2,11 @@
 * @Author: zfc
 * @Date:   2017-11-24 17:20:38
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-12-03 17:38:36
+* @Last Modified time: 2017-12-04 16:18:48
 */
 /*轮播图*/
 #banner {height:387px;}
-#banner h1{height:387px;background:url("../images/banner.jpg")no-repeat;}
+#banner h1{height:387px;background:url("../images/banner.jpg") no-repeat;}
 
 /*图标上方*/
 #logo_top{height:42px;}
@@ -24,7 +24,7 @@
 
 /*右侧小新闻*/
 .right_logoshoes{height:214px;width:189px;}
-.top_area{height:68px;width:189px;border:1px solid #F1F1F1;}
+.top_area{height:68px;width:187px;border:1px solid #F1F1F1;}
 .top_area li{position:relative;}
 .top_area a{display:block;font-size: 12px;color:#787878;padding-left:20px;line-height: 12px;padding-top: 8px;}
 .top_area i{display:block;width:5px;height:8px;background:url("../images/icon.fw.png") -280px 0;position:absolute;left:10px;top:9px;}
@@ -44,19 +44,21 @@
 /*满减区域左侧*/
 #manjian_little{height:12px;}
 #manjian .manjian_area{height:290px;}
-.manjian_area .man_left{height: 290px;width:350px;float:left;border:1px solid #C3C3C3;}
+.manjian_area .man_left{height: 289px;width:350px;float:left;border:1px solid #C3C3C3;margin-right: 1px;}
 .man_left h1{width:335px;height: 214px;margin-top:8px;margin-left:8px;border-bottom: 1px dashed #CFCFCF;}
 .man_left i{display:block;width:335px;height:205px;background:url("../images/child.jpg");}
 .man_left h2{font-size: 18px;color:#3D3D3D;margin-left:8px;margin-top:9px;}
 .man_left p{font-size: 12px;color:#9D9D9D;margin-left:8px;}
 
 /*满减区域右侧*/
-.man_right{width:836px;height:290px;float:right;}
-.man_right li{float:left;width:203px;height:290px;border:1px solid #C7C7C7;margin-right:4px;}
+.man_right{width:835px;height:290px;float:right;}
+.man_right li{display:inline;float:left;width:203px;height:289px;border:1px solid #C7C7C7;margin-right:3px;}
 .man_right h1{width:197px;height:217px;margin-top:3px;margin-left:3px;border-bottom: 1px dashed #CFCFCF;}
-.man_right i{display:block;width:197px;height:207px;background:url("../images/ruibu.jpg");}
+.man_right i{display:block;width:197px;height:207px;background:url("../images/ruibu.jpg") ;}
 .man_right h2{font-size: 18px;color:#3D3D3D;margin-left:8px;margin-top:9px;}
 .man_right p{font-size: 12px;color:#9D9D9D;margin-left:8px;}
+.man_right .specific{display:inline;margin-right:-1px;padding-right:4px;}
+.man_right .specific h1{margin-left:5px;}
 
 /*休闲鞋灰色区域*/
 #many_area{height: 25px;background-color:#F6F6F6;}
@@ -83,15 +85,14 @@
 /*休闲鞋左侧foot*/
 .left_pic ul{width:190px;height:161px;background:#FFFFFF;}
 .left_pic li{float:left;width:95px;}
-.left_pic a{display:block;color:#3B4039;font-size: 12px;line-height:12px;padding-top:15px;text-align: center;}
+.left_pic a{display:block;color:#3B4039;font-size: 12px;line-height:12px;padding-top:15px;text-align:center;}
 
 /*休闲鞋超级大图*/
 .right_pic{width:992px;height:426px;float:right;}
 .big_pic{width:393px;height: 426px;}
 
 /*休闲鞋右边*/
-.leave_area{width:598px;height:426px;}
-.leave_area .topnow_area ul{height:245px;}
+.leave_area{width:595px;}
 .leave_area .topnow_area li{float:left;width:197px;height:245px;border-right:1px solid #D2D2D2;border-bottom: 1px solid #D2D2D2;}
 .topnow_area a{display:block;font-size: 14px;height:42px;text-align: center;padding-top:20px;}
 .topnow_area p{color:#888888;}
